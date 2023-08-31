@@ -1,0 +1,92 @@
+.container{
+    height: 50px;
+    width: fit-content;
+    font-family: sans-serif, arial;
+}
+
+*{
+    margin: 0px;
+    padding: 0%;
+
+}
+
+.famazon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.famazon img{
+    width: 200px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.famazon span{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px auto 25px auto;
+}
+
+.card h1{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.card label{
+    font-size: 13px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.card input{
+    width: 300;
+    height: 25px;
+    margin-top: 3px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.card button{
+    width: 300px;
+    height: 30px;
+    margin-top: 12px;
+    background-color: yellow;
+    border: 1px solid gray;
+    border-top-color: lightgray;
+    background-image: linear-gradient(lightyellow, lightyellow);
+    border-radius: 5px;
+}
+
+.card p, .card p a{
+    font-size: 10px;
+    line-height: 3;
+}
+
+.card a{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.icon::before{
+    display: inline-block;
+    content: "";
+    border-top: 5px solid transparent;
+    border-left: 5px solid lightgray;
+    border-bottom: 5px solid transparent;
+    margin-right: ;
+}
+
